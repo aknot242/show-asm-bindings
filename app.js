@@ -30,9 +30,9 @@ common.getAuthToken(ARGS.username, ARGS.password)
             .then((values) => {
                 values[0].forEach((vServer) => {
                     let policy = values[1].find((x) => x.virtualServers.includes(vServer))
-                    console.log(`VS ${vServer} ${policy === undefined
-                        ? chalk.red('NO ASM POLICY')
-                        : chalk.green(`ASM POLICY ${policy.name}`)}`);
+                    console.log(`Virtual Server: ${vServer} ${policy === undefined
+                        ? chalk.red('NO ASM POLICY BOUND')
+                        : chalk.green(`ASM POLICY BOUND: ${policy.name}`)}`);
                 });
             });
     })
