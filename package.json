@@ -1,0 +1,15 @@
+{
+  "name": "show-asm-bindings",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jsonata": "1.4.1",
+    "node-rest-client-promise": "^3.1.1",
+    "yargs": "10.0.3"
+  }
+}
