@@ -1,7 +1,9 @@
 # show-asm-bindings
-NodeJS command line app to report ASM status for each virtual server on a BIG-IP
+NodeJS command line app to report ASM status for each virtual server on a BIG-IP. Uses the BIG-IP iControlREST API.
 
-Requires BIG-IP 12.1 or above and NodeJS 6.x
+Requires BIG-IP 12.1 or later and NodeJS 6.x
+
+<img width="500px" src="screenshot.png" alt="screenshot"/>
 
 Usage:
 ```
